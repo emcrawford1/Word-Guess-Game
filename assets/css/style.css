@@ -19,6 +19,7 @@ body{
 #spacer{
     height:150px;
     width:100%;
+    position: relative;
 }
 
 #guessingBlock{
@@ -63,4 +64,30 @@ body{
     font-size: 30px;
     overflow: visible;
     padding-bottom: 20px;
+    
+}
+
+
+.guessed{
+    display: inline;
+}
+
+#freeFloat{
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    font-size: 50px;
+    
+   
+}
+
+#ground{
+    background-color: green;
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+    
+   
 }
