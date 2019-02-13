@@ -1,4 +1,4 @@
-body{
+#backDrop{
     background-color: rgba(16, 189, 233, 0.986);
 }
 #background{
@@ -87,7 +87,4 @@ body{
     width: 100%;
     position: fixed;
     bottom: 0;
-    
-    
-   
 }
